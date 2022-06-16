@@ -60,3 +60,10 @@ li {
      justify-content: space-around;
      background-position: fl;
  }
+
+ .section-prigramming {
+    background-color: #00a651;
+    display: flex;
+    padding: 30px 300px;
+    justify-content: space-around;
+ }
