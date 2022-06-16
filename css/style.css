@@ -4,13 +4,13 @@ body {
 
 h1 {
     font-family: 'Press Start 2P';
-font-style: normal;
-font-weight: 400;
-font-size: 39px;
-line-height: 39px;
-background-color: white;
-padding: 10px;
-border-radius: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 
@@ -48,22 +48,54 @@ li {
     padding-left: 20px;
     cursor: pointer;
 }
- li:hover {
-     color:gold
- }
 
- .banner{
-     height: 900px;
-     background-image: url('../images/banner.png');
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-     background-position: fl;
- }
+li:hover {
+    color: gold
+}
 
- .section-prigramming {
+.banner {
+    height: 900px;
+    background-image: url('../images/banner.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: fl;
+}
+
+.section-prigramming {
     background-color: #00a651;
     display: flex;
     padding: 30px 300px;
     justify-content: space-around;
- }
+}
+
+.programming-img {
+    max-width: 40%;
+
+}
+
+.programming-text {
+    max-width: 60%;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+
+h3 {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+  
+}
+
+.about-me {
+background-color: white;
+border: 2px #000 solid;
+margin: 30px auto;
+max-width: 600px;
+height: 800px;
+}
